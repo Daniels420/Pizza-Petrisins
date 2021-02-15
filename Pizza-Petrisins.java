@@ -7,17 +7,17 @@ public class Pizza-Petrisins {
 	//Mainîgie
 	DecimalFormat df = new DecimalFormat("#.##");
 	Scanner scan = new Scanner(System.in);
-	String vards;
-	char picas veids;
-	String veids;
-	int cm;
-	double apmaksa = 0.0;
-	double summa;
-	double cena;
-	int piedeva1 = 0;
-	int piedeva2 = 0;
-	int piedeva3;
-	String piedeva = "Siers";
+	String vards; //Pirmais pasûtîtâja vârds
+	char picas veids; 
+	String veids; //Veida nosaukums
+	int cm; //Picas izmçrs
+	double apmaksa = 0.0; //picas apmaksa
+	double summa; //apmaksa kopâ ar piedevâm
+	double cena; //Picas cenas(kopçjâ)
+	int piedeva1 = 0; //Pirmâ piedeva (Pepperoni)
+	int piedeva2 = 0; //Otrâ piedeva (Guríi)
+	int piedeva3; //Kopâ piedevas
+	String piedeva = "Siers"; //Automâtiskâ piedeva
 	System.out.println("Ievadiet savu Vârdu un Uzvârdu: );"
 	Vards = keyboard.nextLine();
 	
@@ -68,6 +68,13 @@ public class Pizza-Petrisins {
 		
 		piedeva3 = (piedeva1) + (piedeva2);
 		
+		//Pasûtîjuma apmaksas aprçíinâðana
+		
+		summa = (apmaksa) + (piedeva3 * 1.25);
+		System.out.println(Vards + ",ðeit bûs jûsu pasûtîjums:  ");
+		System.out.println(cm + "cm pizza");
+		System.out.println(piedeva + " + piedeva");
+		System.out.println("Pasûtîjums maksâ: eiro" + df.format(cena));
 		
 		
 		
