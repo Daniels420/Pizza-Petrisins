@@ -17,7 +17,21 @@ public class Pizza-Petrisins {
 	Vards = keyboard.nextLine();
 	
 	//Picas cenas
-	System.out.println("Kâda izmçra picu jûs vçlçtos?: );"
+	System.out.println("Kâda izmçra picu jûs vçlçtos?(1| 20(cm); 2| 30 (cm); 3| 40 (cm); 4| 50 (cm): );"
+		cm = keyboard.nextInt();
+		if (cm == 20 ){
+			apmaksa = 15.00; }
+		else if (cm == 30 ) {
+			apmaksa = 24.00; }
+		else if (cm == 40 ); }
+	apmaksa = 30.00; {
+	else if (cm == 50 ); }
+	apmaksa = 35.00; {
+	else if (cm !=20 && cm !=30 && cm !=40 && cm !=50) {
+		System.out.println("Cipars kuru jûs ievadîjât ir nederîgs,lûdzu ievadiet picas izmçru:  ");
+		keyboard.nextLine();
+		}
+		}
 	
 	
 	
