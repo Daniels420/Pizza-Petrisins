@@ -8,7 +8,8 @@ public class Pizza-Petrisins {
 	DecimalFormat df = new DecimalFormat("#.##");
 	Scanner scan = new Scanner(System.in);
 	String vards;
-	char garozas tips;
+	char picas veids;
+	String veids;
 	int cm;
 	double apmaksa = 0.0;
 	double summa;
@@ -30,6 +31,16 @@ public class Pizza-Petrisins {
 	else if (cm !=20 && cm !=30 && cm !=40 && cm !=50) {
 		System.out.println("Cipars kuru jûs ievadîjât ir nederîgs,lûdzu ievadiet picas izmçru:  ");
 		keyboard.nextLine();
+		
+		//
+		System.out.println("Kâdu picu jûs vçlaties?: 1)Pizza Margherita (PM); 2)Pizza Marinara (PMA); 3)Margharita extra (MEX) :  ");
+		if (picas veids == 'PM' || picas veids == 'pm' ) {
+			veids = "Pizza Margharita";}
+		else if (picas veids == 'PMA' || picas veids == 'pma') {
+			veids = "Pizza Marinara";}
+		else if (picas veids == 'MEX' || picas veids == 'mex' ) {
+			veids = "Margharita extra";}
+		}
 		}
 		}
 	
